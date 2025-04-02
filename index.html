@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tacoma Parks Map</title>
+	  	<!-- the Leaflet CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+		<!-- the Leaflet JavaScript library -->
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+		<!-- stylesheet link -->
+		 <link rel="stylesheet" href="/styles.css"/>
+		 <!-- jquery and leaflet-legend plugin -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		 <script src= "https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.min.js"></script>
+		 <!-- leaflet-mask library -->
+		<script src= "/leaflet-mask.js"></script>
+	</head>
+
+<body>
+	<h1>Coffees in Parks!</h1>
+	<h2>Grab yer mug and get over here :)</h2>
+	
+	<!--create and name the container that holds the map -->
+	<div id="map" style="height: 90vh"></div>
+
+	<!--create the legend-->
+	<div id="legend">
+		<h2><center>Visit Status</center></h2>
+		<ul style="list-style-type:none">
+			<li>
+				<div class ="iconContainer"><img src = "/svgs/cafe-purple.svg" height="40" width ="40">
+				<text>Our next park!</text></div>
+			</li>
+			<li>
+				<div class ="iconContainer"><img src = "/svgs/heart.svg" height="36" width ="32"> 
+				<text>Previously visited</text></div>
+			</li>
+			<li>
+				<div class ="iconContainer"><img src = "/svgs/marker.svg" height="40" width ="40"> 
+				<text>Not yet visited</text></div>
+			</li>
+		</ul>
+	</div>
+    <!-- load the parks and city boundary data -->
+    <script type="text/javascript" src="parks-data.js"></script>
+	
+	<!-- code where we build the map and its functionality -->
+	<script>
+		var map = L.map('map').setView([47.2529, -122.4443], 12);
+		var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
+				attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>&copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a>&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+			}).addTo(map);
+
+		//create icons
+		var goldIcon = L.icon({
+			iconUrl: 'svgs/marker.svg',
+			//shadowUrl: 'leaf-shadow.png',
+			iconSize:     [40, 40], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			//iconAnchor:   [0, -20], // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			//popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+
+		var coffeeIcon = L.icon({
+			iconUrl: 'svgs/cafe-purple.svg',
+			//shadowUrl: 'leaf-shadow.png',
+			iconSize:     [60, 60], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			//iconAnchor:   [0, -20], // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			popupAnchor:  [0, -15] // point from which the popup should open relative to the iconAnchor
+		});
+
+		var heartIcon = L.icon({
+			iconUrl: 'svgs/heart.svg',
+			//shadowUrl: 'leaf-shadow.png',
+			iconSize:     [40, 32], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			//iconAnchor:   [0, -20], // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			//popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+		
+		// add the parks data to the map as a layer and style the icons based on status property
+		L.geoJson(parks, {
+        pointToLayer: function(feature, latlng){
+			var icon,
+				status = feature.properties.status;
+				if (status === "upcoming") icon = coffeeIcon
+				else if (status === "visited") icon = heartIcon
+				else icon = goldIcon;
+			
+			var marker = L.marker(latlng, {icon:icon});
+			var uriA =  "https://www.google.com/maps/dir/?api=1&destination="
+				uriB = feature.properties.Address
+				uri = encodeURI(uriA + uriB)
+				currentContent = "<em>This is our next park! See you Sunday!</em><br><br><b>" + feature.properties.NAME + "</b><br><a href =" + feature.properties.website + "> More info about the park</a><br><br>Directions: <a href =" + uri + ">" + feature.properties.Address + "</a>"
+		
+				if (status === "upcoming") 
+					marker.bindPopup(currentContent).setZIndexOffset(1000),
+					L.popup({offset: [0, -10]}).setLatLng(latlng)
+						.setContent(currentContent)
+						.openOn(map)
+				else if (status === "visited")
+					marker.bindPopup("<b>" + feature.properties.NAME + "</b><br>" + feature.properties.Address + "<br><a href =" + feature.properties.website + "> More info about the park</a><br><br><em>" + feature.properties.info + "</em>")
+				else
+					marker.bindPopup("<b>" + feature.properties.NAME + "</b><br>" + feature.properties.Address)
+			
+			return marker;
+        }
+    }).addTo(map);
+
+	//place legend over map
+	var Legend =  new L.Control.Legend({
+		position: 'topright',
+	});
+
+	map.addControl(Legend);
+	$(".legend-container").append( $("#legend") );
+
+	//mask
+	L.mask('Tacoma_City_Limits.geojson', {restrictBounds: false, fillOpacity: 0.6, stroke: false}).addTo(map);
+	</script>
+</body>
+</html>
