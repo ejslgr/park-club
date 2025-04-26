@@ -200,7 +200,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98422,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "4340836a-e1a9-4de7-8a53-30fe498ceda8"
+                "UNIQUE_ID": "4340836a-e1a9-4de7-8a53-30fe498ceda8",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/alderwood-park/",
+                "info": "Note! no bathroom :/"
             },
             "geometry": {
                 "type": "Point",
@@ -1653,8 +1656,9 @@ var parks =
                 "Zip": 98402,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "upcoming",
-                "website": "https://www.parkstacoma.gov/project/melanies-park/"
+                "status": "visited",
+                "website": "https://www.parkstacoma.gov/project/melanies-park/", 
+                "info": "The slide is amazing, but... not made for adult-sized bodies."
             },
             "geometry": {
                 "type": "Point",

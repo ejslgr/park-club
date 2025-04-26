@@ -2,20 +2,20 @@
 
 body {
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
 }
 
-html, body, #map {
+html, body {
   height: 100%;
   width: 100vw;
 }
 
-h1, h3, h2 {
+h1, h3, h2, li {
     color: #563517;
     font-family: "Winky Sans", sans-serif;
     font-weight: 500;
-    font-style: itlaic;
-    /* text-align: center; */
+    font-style: italic;
+    text-align: center;
   }
 
   #legend {
