@@ -3,17 +3,21 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>Tacoma Parks Map</title>
-	  	<!-- the Leaflet CSS -->
+	  	<!-- the Leaflet libraries -->
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-		<!-- the Leaflet JavaScript library -->
 		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 		<!-- stylesheet link -->
 		 <link rel="stylesheet" href="styles.css"/>
-		 <!-- jquery and leaflet-legend plugin -->
+		 <!-- jquery, leaflet-legend plugin, leaflet-mask plugin, leaflet.markercluster plugin -->
 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 		 <script src= "https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.min.js"></script>
-		 <!-- leaflet-mask library -->
+
 		<script src= "leaflet-mask.js"></script>
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+		<link rel="stylesheet" href="MarkerCluster.Default.css">
+		<script src= "https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 	</head>
 
 <body>
@@ -23,7 +27,7 @@
 	<!--create the legend-->
 	<!--create the legend-->
 	<div id="legend">
-		<h2><center>Visit Status</center></h2>
+		<h2 style="line-height: 0"><center>Visit Status</center></h2>
 		<ul style="list-style-type:none">
 			<li>
 				<div class ="iconContainer"><img src = "svgs/cafe-purple.svg" height="40" width ="40">
@@ -95,12 +99,12 @@
 		
 		// add the parks data to the map as a layer and style the icons based on status property
 		L.geoJson(parks, {
+			filter: visitFilter, 
         pointToLayer: function(feature, latlng){
 			var icon,
 				status = feature.properties.status;
 				if (status === "upcoming") icon = coffeeIcon
-				else if (status === "visited") icon = heartIcon
-				else icon = goldIcon;
+				else if (status === "visited") icon = heartIcon;
 			
 			var marker = L.marker(latlng, {icon:icon});
 			var uriA =  "https://www.google.com/maps/dir/?api=1&destination="
@@ -116,13 +120,34 @@
 				}
 				else if (status === "visited")
 					marker.bindPopup("<b>" + feature.properties.NAME + "</b><br>" + feature.properties.Address + "<br><a href =" + feature.properties.website + "> More info about the park</a><br><br><em>" + feature.properties.info + "</em>")
-				else
-					marker.bindPopup("<b>" + feature.properties.NAME + "</b><br>" + feature.properties.Address)
 			
 			return marker;
         }
     }).addTo(map);
 
+	function visitFilter(feature) {
+	if (feature.properties.status === "visited" || feature.properties.status ==="upcoming") return true
+	}
+
+	//add and cluster gold icons for parks not yet visited	
+	var gold_parks = L.geoJson(parks, {
+		filter: goldFilter, 
+		pointToLayer: function(feature, latlng){
+			var icon = goldIcon
+			var marker = L.marker(latlng, {icon:icon})
+			marker.bindPopup("<b>" + feature.properties.NAME + "</b><br>" + feature.properties.Address)
+			return marker;
+		}
+	});
+
+	function goldFilter(feature) {
+	if (feature.properties.status !== "visited" && feature.properties.status !=="upcoming") return true
+	}
+
+	var clusters = L.markerClusterGroup();
+		clusters.addLayer(gold_parks);
+		map.addLayer(clusters); 
+	
 	//place legend over map
 	var Legend =  new L.Control.Legend({
 		position: 'bottomright',

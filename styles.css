@@ -46,7 +46,7 @@ h1, h3, h2, li {
 
 /* li {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; 
   align-content: center;
   vertical-align: middle;
 } */
