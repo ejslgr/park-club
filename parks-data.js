@@ -203,7 +203,7 @@ var parks =
                 "UNIQUE_ID": "4340836a-e1a9-4de7-8a53-30fe498ceda8",
                 "status": "upcoming",
                 "website": "https://www.parkstacoma.gov/place/alderwood-park/",
-                "info": "Note! no bathroom :/"
+                "info": "Note! no bathroom &#128553;"
             },
             "geometry": {
                 "type": "Point",
