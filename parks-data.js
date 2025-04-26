@@ -502,7 +502,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "dafc3392-cb24-4ba7-8a1f-87eb3b8531f2"
+                "UNIQUE_ID": "dafc3392-cb24-4ba7-8a1f-87eb3b8531f2",
+                "status": "visited",
+                "website": "https://www.parkstacoma.gov/place/cummings-park/",
+                "info": "5th park! We visted on April 20, 2025--Stoner Easter."
             },
             "geometry": {
                 "type": "Point",
@@ -1126,7 +1129,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98407,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "813db268-f03c-4720-a6f7-c96ba518040f"
+                "UNIQUE_ID": "813db268-f03c-4720-a6f7-c96ba518040f", 
+                "status": "visited",
+                "website": "https://www.parkstacoma.gov/place/puget-park/",
+                "info": "4th park! We visited on April 13, 2025. We enjoyed the playground but got too caught up in chatting to explore the gulch!"
             },
             "geometry": {
                 "type": "Point",
@@ -1658,7 +1664,7 @@ var parks =
                 "UNIQUE_ID": null,
                 "status": "visited",
                 "website": "https://www.parkstacoma.gov/project/melanies-park/", 
-                "info": "The slide is amazing, but... not made for adult-sized bodies."
+                "info": "3rd park! We visited on April 6, 2025. The slide is amazing, but... not made for adult-sized bodies."
             },
             "geometry": {
                 "type": "Point",
