@@ -201,9 +201,9 @@ var parks =
                 "Zip": 98422,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "4340836a-e1a9-4de7-8a53-30fe498ceda8",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/alderwood-park/",
-                "info": "Note! no bathroom &#128553;"
+                "info": "Really loved the Storywalk dispaly from Tacoma Public Libraries at this park!"
             },
             "geometry": {
                 "type": "Point",
@@ -1408,7 +1408,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "fe9ce697-ad81-4a78-b87a-51c0c6302e6b"
+                "UNIQUE_ID": "fe9ce697-ad81-4a78-b87a-51c0c6302e6b",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/judge-jack-tanner-park-formerly-marine-park/",
+                "info": "The Tacoma Marathon is this Sunday! This park is on the route, so plan ahead as far as parking and crowds, and come to cheer on the runners!"
             },
             "geometry": {
                 "type": "Point",
