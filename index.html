@@ -108,7 +108,7 @@
 			
 			var marker = L.marker(latlng, {icon:icon});
 			var uriA =  "https://www.google.com/maps/dir/?api=1&destination="
-				uriB = feature.properties.Address
+				uriB = feature.properties.Address2
 				uri = encodeURI(uriA + uriB)
 				currentContent = "<em>This is our next park! See you Sunday!</em><br><br><b>" + feature.properties.NAME + "</b><br><a href =" + feature.properties.website + "> More info about the park</a><br>" + feature.properties.info + "<br><br>Directions: <a href =" + uri + ">" + feature.properties.Address + "</a>" 
 		
