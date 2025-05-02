@@ -203,7 +203,7 @@ var parks =
                 "UNIQUE_ID": "4340836a-e1a9-4de7-8a53-30fe498ceda8",
                 "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/alderwood-park/",
-                "info": "Really loved the Storywalk dispaly from Tacoma Public Libraries at this park!"
+                "info": "6th park! We visited on April 27, 2025. Really loved the Storywalk dispaly from Tacoma Public Libraries at this park!"
             },
             "geometry": {
                 "type": "Point",
