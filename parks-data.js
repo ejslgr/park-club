@@ -661,12 +661,16 @@ var parks =
                 "CLASS": "Natural Areas",
                 "PLANNING": "SW",
                 "MAINTNCE": "South",
-                "Address": "7633 S Montgomery St, Tacoma, WA 98407",
+                "Address": "S Cedar St. and S 74th St., Tacoma, 98409",
+                "Address2":"47.190035602136234, -122.47608979519775",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98409,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "072a9296-8b94-4ae1-a586-d8ca03a0f438"
+                "UNIQUE_ID": "072a9296-8b94-4ae1-a586-d8ca03a0f438",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/oak-tree-park/",
+                "info": "Access notes: street parking only and no bathroom, but there is a playground in addition to some rare Garry oak habitat!"
             },
             "geometry": {
                 "type": "Point",
@@ -1410,9 +1414,9 @@ var parks =
                 "Zip": 98403,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "fe9ce697-ad81-4a78-b87a-51c0c6302e6b",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/judge-jack-tanner-park-formerly-marine-park/",
-                "info": "The Tacoma Marathon is this Sunday! This park is on the route, so plan ahead as far as parking and crowds, and come to cheer on the runners!"
+                "info": "Park number 7! We cheered on marathon runners... while casually munching on our pastries (sorry). Park clubber Reed ran by twice!"
             },
             "geometry": {
                 "type": "Point",
