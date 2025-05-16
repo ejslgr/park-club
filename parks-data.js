@@ -668,9 +668,9 @@ var parks =
                 "Zip": 98409,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "072a9296-8b94-4ae1-a586-d8ca03a0f438",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/oak-tree-park/",
-                "info": "Access notes: street parking only and no bathroom, but there is a playground in addition to some rare Garry oak habitat!"
+                "info": "This was park #8, visited on May 11, 2025. Aptly named, there were oak trees in the park indeed. Beautiful meadow too!"
             },
             "geometry": {
                 "type": "Point",
@@ -1577,7 +1577,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98404,
                 "Bnd_Type": null,
-                "UNIQUE_ID": "8196de44-8702-4055-be25-2ebfa1e81e69"
+                "UNIQUE_ID": "8196de44-8702-4055-be25-2ebfa1e81e69", 
+                "website": "https://www.parkstacoma.gov/place/portland-avenue-park/",
+                "status": "upcoming",
+                "info": "Access notes: Parking available at the co-located Asia Pacific Cultural Center."
             },
             "geometry": {
                 "type": "Point",
