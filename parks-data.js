@@ -318,7 +318,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98407,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "6e5e8aac-d8b6-4714-8de5-dd9abd8a2a8c"
+                "UNIQUE_ID": "6e5e8aac-d8b6-4714-8de5-dd9abd8a2a8c", 
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/vassault-park/",
+                "info": "Access notes: Good news--there is a bathroom. We'll meet by the playground!"
             },
             "geometry": {
                 "type": "Point",
@@ -1579,8 +1582,8 @@ var parks =
                 "Bnd_Type": null,
                 "UNIQUE_ID": "8196de44-8702-4055-be25-2ebfa1e81e69", 
                 "website": "https://www.parkstacoma.gov/place/portland-avenue-park/",
-                "status": "upcoming",
-                "info": "Access notes: Parking available at the co-located Asia Pacific Cultural Center."
+                "status": "visited",
+                "info": "Park #9! We visted on May 18, 2025. Sunshine, wind, donuts, and coffee. A good one indeed."
             },
             "geometry": {
                 "type": "Point",
