@@ -319,9 +319,9 @@ var parks =
                 "Zip": 98407,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "6e5e8aac-d8b6-4714-8de5-dd9abd8a2a8c", 
-                "status": "upcoming", 
+                "status": "visited", 
                 "website": "https://www.parkstacoma.gov/place/vassault-park/",
-                "info": "Access notes: Good news--there is a bathroom. We'll meet by the playground!"
+                "info": "Park #10! A decidedly sports-oriented park. The pickleballers were not messing around!"
             },
             "geometry": {
                 "type": "Point",
@@ -899,11 +899,15 @@ var parks =
                 "PLANNING": "NW",
                 "MAINTNCE": "West",
                 "Address": "1201 S Puget Sound Ave, Tacoma, WA 98405",
+                "Address2": "Franklin Park playground, 1201 S Puget Sound Ave, Tacoma, WA 98405",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "8e2bc050-61ee-43d2-8640-38f14158a28e"
+                "UNIQUE_ID": "8e2bc050-61ee-43d2-8640-38f14158a28e",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/franklin-park/", 
+                "info": "Be sure to navigate to the park and not the (adjacent but up a steep hill) elementary school! Access notes: the playground might be closed? Emmer's been running here though and it doesn't seem like it."
             },
             "geometry": {
                 "type": "Point",
