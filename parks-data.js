@@ -34,11 +34,15 @@ var parks =
                 "PLANNING": "NW",
                 "MAINTNCE": "NE | Central",
                 "Address": "1919 S Tyler St, Tacoma, WA 98405",
+                "Address2": "Discovery Pond, Tacoma Nature Center",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Community Center",
-                "UNIQUE_ID": "6795947f-419c-4eef-bc88-5492f61341fb"
+                "UNIQUE_ID": "6795947f-419c-4eef-bc88-5492f61341fb",
+                "website": "https://www.parkstacoma.gov/place/tacoma-nature-center/",
+                "status": "upcoming",
+                "info": "We'll meet at the picnic/play area by the Visitor Center, but I sure hope we also take a lil' hike!"
             },
             "geometry": {
                 "type": "Point",
@@ -905,9 +909,9 @@ var parks =
                 "Zip": 98405,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "8e2bc050-61ee-43d2-8640-38f14158a28e",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/franklin-park/", 
-                "info": "Be sure to navigate to the park and not the (adjacent but up a steep hill) elementary school! Access notes: the playground might be closed? Emmer's been running here though and it doesn't seem like it."
+                "info": "Park #11! We visited on June 1. Great news, the playground is NOT closed anymore. We were all impressed by the kids braving the splash pad, despite the cooler temps."
             },
             "geometry": {
                 "type": "Point",
