@@ -41,8 +41,8 @@ var parks =
                 "Bnd_Type": "Community Center",
                 "UNIQUE_ID": "6795947f-419c-4eef-bc88-5492f61341fb",
                 "website": "https://www.parkstacoma.gov/place/tacoma-nature-center/",
-                "status": "upcoming",
-                "info": "We'll meet at the picnic/play area by the Visitor Center, but I sure hope we also take a lil' hike!"
+                "status": "visited",
+                "info": "Our 12th park! We visited on June 8, 2025. The tadpoles/baby dragons did not disappoint!"
             },
             "geometry": {
                 "type": "Point",
