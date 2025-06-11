@@ -99,7 +99,7 @@
 		});
 		
 		// add the parks data to the map as a layer and style the icons based on status property
-		L.geoJson(parks, {
+		var parksV = L.geoJson(parks, {
 			filter: visitFilter, 
         pointToLayer: function(feature, latlng){
 			var icon,
@@ -126,6 +126,11 @@
         }
     }).addTo(map);
 
+	// When we've visited more than we have left, this code will cluster the heart icons instead of the gold icons. Also make changes to the MarkerCluster css to change the color of the cluster symbols. 
+	// var clustersV = L.markerClusterGroup()
+	// 		clustersV.addLayer(parksV)
+	// 		map.addLayer(clustersV)
+
 	function visitFilter(feature) {
 	if (feature.properties.status === "visited" || feature.properties.status ==="upcoming") return true
 	}
@@ -141,14 +146,15 @@
 		}
 	});
 
+	var clusters = L.markerClusterGroup();
+		clusters.addLayer(gold_parks);
+		map.addLayer(clusters); 
+
 	function goldFilter(feature) {
 	if (feature.properties.status !== "visited" && feature.properties.status !=="upcoming") return true
 	}
 
-	var clusters = L.markerClusterGroup();
-		clusters.addLayer(gold_parks);
-		map.addLayer(clusters); 
-	
+
 	//place legend over map
 	var Legend =  new L.Control.Legend({
 		position: 'bottomright',
@@ -158,7 +164,7 @@
 	$(".legend-container").append( $("#legend") );
 
 	//mask
-	L.mask('Tacoma_City_Limits.geojson', {restrictBounds: false, fillOpacity: 0.6, stroke: false}).addTo(map);
+	L.mask('Tacoma_City_Limits.geojson', {restrictBounds: false, fillOpacity: 0.25, stroke: false}).addTo( map);
 	</script>
 </body>
 </html>
