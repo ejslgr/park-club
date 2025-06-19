@@ -165,70 +165,25 @@
 	// $(".legend-container").append( $("#legend") );
 
 	    const legend = L.control.Legend({
-            position: "bottomleft",
+            position: "topright",
             collapsed: false,
             symbolWidth: 24,
-            opacity: 1,
-            column: 2,
+            opacity: 0.8,
+            column: 3,
             legends: [{
-                label: "Marker1",
+                label: "Next up!",
                 type: "image",
-                url: "marker/marker-red.png",
+                url: "svgs/cafe-purple.svg",
+				//layers: parksV
             }, {
-                label: "Marker2",
+                label: "Visited",
                 type: "image",
-                url: "marker/purple.png"
+                url: "svgs/heart.svg"
             }, {
-                label: "Circle",
-                type: "circle",
-                radius: 6,
-                color: "blue",
-                fillColor: "#FF0000",
-                fillOpacity: 0.6,
-                weight: 2,
-                layers: [marker],
-                inactive: true,
-            }, {
-                label: "Real line",
-                type: "polyline",
-                color: "#FF0000",
-                fillColor: "#FF0000",
-                weight: 2,
-                layers: polyline
-            }, {
-                label: "Dotted line",
-                type: "polyline",
-                color: "#0000FF",
-                fillColor: "#0000FF",
-                dashArray: [5, 5],
-                weight: 2
-            }, {
-                label: "Rectangle",
-                type: "rectangle",
-                color: "#FF0000",
-                fillColor: "#FF0000",
-                weight: 2
-            }, {
-                label: "Square",
-                type: "polygon",
-                sides: 4,
-                color: "#FF0000",
-                fillColor: "#FF0000",
-                weight: 2
-            }, {
-                label: "Regular triangle",
-                type: "polygon",
-                sides: 3,
-                color: "#FF0000",
-                fillColor: "#FF0000",
-                weight: 2
-            }, {
-                label: "Regular polygon",
-                type: "polygon",
-                sides: 5,
-                color: "#FF0000",
-                fillColor: "#FF0000",
-                weight: 2
+                label: "Not yet visited",
+                type: "image",
+                url: "svgs/marker.svg",
+            	//layers: gold_parks
             }]
         })
         .addTo(map);
