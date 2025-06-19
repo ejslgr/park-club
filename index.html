@@ -23,7 +23,7 @@
 <body>
 	<h1 style ="line-height: .2">Coffees in Parks!</h1>
 	<!-- <h3 style ="line-height: .4">Sundays, 9:30-11</h3> -->
-	<h3 style ="line-height: .4">We're taking June 15 off--see you next week!</h3>
+	<h3 style ="line-height: .4">Next hang is Sunday, June 22, 9:30-11! </h3>
 
 	<!--create the legend-->
 	<!--create the legend-->
@@ -109,7 +109,7 @@
 			
 			var marker = L.marker(latlng, {icon:icon});
 			var uriA =  "https://www.google.com/maps/dir/?api=1&destination="
-				uriB = feature.properties.Address2
+				uriB = feature.properties.Address
 				uri = encodeURI(uriA + uriB)
 				currentContent = "<em>This is our next park! See you Sunday!</em><br><br><b>" + feature.properties.NAME + "</b><br><a href =" + feature.properties.website + "> More info about the park</a><br>" + feature.properties.info + "<br><br>Directions: <a href =" + uri + ">" + feature.properties.Address + "</a>" 
 		

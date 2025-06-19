@@ -290,7 +290,7 @@ var parks =
             "type": "Feature",
             "properties": {
                 "OBJECTID": 105,
-                "NAME": "McCarver Park",
+                "NAME": "Edna Travis Park",
                 "CLASS": "Neighborhood",
                 "PLANNING": "NW",
                 "MAINTNCE": "NE | Central",
@@ -299,7 +299,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "9449d181-4f67-4a03-b3f1-b9c9edf39c91"
+                "UNIQUE_ID": "9449d181-4f67-4a03-b3f1-b9c9edf39c91", 
+                "website": "https://www.parkstacoma.gov/place/edna-travis-park/",
+                "status": "upcoming",
+                "info": "Described by one of our Park Friends as their favorite park in the city, we think this one'll be good. But note: no bathrooms."
             },
             "geometry": {
                 "type": "Point",
