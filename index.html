@@ -11,7 +11,8 @@
 		 <!-- jquery, leaflet-legend plugin, leaflet-mask plugin, leaflet.markercluster plugin -->
 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-		 <script src= "https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.min.js"></script>
+		 <link rel ="stylesheet" href = "/leaflet.legend/leaflet.legend.css">
+		 <script src= "/leaflet.legend/leaflet.legend.js"></script>
 
 		<script src= "leaflet-mask.js"></script>
 
@@ -27,7 +28,7 @@
 
 	<!--create the legend-->
 	<!--create the legend-->
-	<div id="legend">
+	<!-- <div id="legend">
 		<h2 style="line-height: 0"><center>Visit Status</center></h2>
 		<ul style="list-style-type:none">
 			<li>
@@ -43,7 +44,7 @@
 				<text>Not yet visited</text></div>
 			</li>
 		</ul>
-	</div>
+	</div> -->
 
 	<!--create and name the container that holds the map -->
 	<div id="map" style="height: 70vh; width: 96vw"></div>
@@ -156,12 +157,81 @@
 
 
 	//place legend over map
-	var Legend =  new L.Control.Legend({
-		position: 'bottomright',
-	});
+	// var Legend =  new L.Control.Legend({
+	// 	position: 'bottomright',
+	// });
 
-	map.addControl(Legend);
-	$(".legend-container").append( $("#legend") );
+	// map.addControl(Legend);
+	// $(".legend-container").append( $("#legend") );
+
+	    const legend = L.control.Legend({
+            position: "bottomleft",
+            collapsed: false,
+            symbolWidth: 24,
+            opacity: 1,
+            column: 2,
+            legends: [{
+                label: "Marker1",
+                type: "image",
+                url: "marker/marker-red.png",
+            }, {
+                label: "Marker2",
+                type: "image",
+                url: "marker/purple.png"
+            }, {
+                label: "Circle",
+                type: "circle",
+                radius: 6,
+                color: "blue",
+                fillColor: "#FF0000",
+                fillOpacity: 0.6,
+                weight: 2,
+                layers: [marker],
+                inactive: true,
+            }, {
+                label: "Real line",
+                type: "polyline",
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2,
+                layers: polyline
+            }, {
+                label: "Dotted line",
+                type: "polyline",
+                color: "#0000FF",
+                fillColor: "#0000FF",
+                dashArray: [5, 5],
+                weight: 2
+            }, {
+                label: "Rectangle",
+                type: "rectangle",
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+            }, {
+                label: "Square",
+                type: "polygon",
+                sides: 4,
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+            }, {
+                label: "Regular triangle",
+                type: "polygon",
+                sides: 3,
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+            }, {
+                label: "Regular polygon",
+                type: "polygon",
+                sides: 5,
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+            }]
+        })
+        .addTo(map);
 
 	//mask
 	L.mask('Tacoma_City_Limits.geojson', {restrictBounds: false, fillOpacity: 0.25, stroke: false}).addTo( map);
