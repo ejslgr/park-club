@@ -301,8 +301,8 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "9449d181-4f67-4a03-b3f1-b9c9edf39c91", 
                 "website": "https://www.parkstacoma.gov/place/edna-travis-park/",
-                "status": "upcoming",
-                "info": "Described by one of our Park Friends as their favorite park in the city, we think this one'll be good. But note: no bathrooms."
+                "status": "visited",
+                "info": "Park #13, we visited on June 22. 2025. What a gem of a park! The light-up game on the playground was something else."
             },
             "geometry": {
                 "type": "Point",
@@ -1617,7 +1617,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98407,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "641ba042-fa10-4051-a81c-02bf2a58ba36"
+                "UNIQUE_ID": "641ba042-fa10-4051-a81c-02bf2a58ba36", 
+                "website" : "https://www.parkstacoma.gov/place/dune-peninsula/",
+                "status": "upcoming", 
+                "info": "We'll meet on the lawn by the bathrooms."
             },
             "geometry": {
                 "type": "Point",
