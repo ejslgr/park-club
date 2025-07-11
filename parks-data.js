@@ -420,7 +420,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "7977a679-51fc-46d8-b73f-b02a7245e253"
+                "UNIQUE_ID": "7977a679-51fc-46d8-b73f-b02a7245e253", 
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/north-slope-historic-park/",
+                "info": "Access notes: This is a tiny pocket park. That means street parking and no bathrooms."
             },
             "geometry": {
                 "type": "Point",
@@ -1619,8 +1622,8 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "641ba042-fa10-4051-a81c-02bf2a58ba36", 
                 "website" : "https://www.parkstacoma.gov/place/dune-peninsula/",
-                "status": "upcoming", 
-                "info": "We'll meet on the lawn by the bathrooms."
+                "status": "visited", 
+                "info": "Park #14! We visited on June 29, 2025. With sunshine, harbor seals, and fresh fruit season, this was a beautiful morning!"
             },
             "geometry": {
                 "type": "Point",
