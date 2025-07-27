@@ -423,7 +423,7 @@ var parks =
                 "UNIQUE_ID": "7977a679-51fc-46d8-b73f-b02a7245e253", 
                 "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/north-slope-historic-park/",
-                "info": "Tiny pocket park packs a punch! This lil' lot was still big time fun."
+                "info": "Park #16, we visited on July 26, 2025. Tiny pocket park packs a punch! This lil' lot was still big time fun."
             },
             "geometry": {
                 "type": "Point",
@@ -1107,7 +1107,7 @@ var parks =
                 "UNIQUE_ID": "afbac564-938f-4b6e-85e8-a59981b9d126",
                 "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/wapato-park/",
-                "info": "We visited this park on March 30, 2015. It was our 2nd park! Dogs in sweaters all over the place!"
+                "info": "We visited this park on March 30, 2025. It was our 2nd park! Dogs in sweaters all over the place!"
             },
             "geometry": {
                 "type": "Point",
