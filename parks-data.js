@@ -421,9 +421,9 @@ var parks =
                 "Zip": 98403,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "7977a679-51fc-46d8-b73f-b02a7245e253", 
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/north-slope-historic-park/",
-                "info": "Access notes: This is a tiny pocket park. That means street parking and no bathrooms."
+                "info": "Tiny pocket park packs a punch! This lil' lot was still big time fun."
             },
             "geometry": {
                 "type": "Point",
@@ -541,7 +541,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98409,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "8124a0a1-08ee-4a00-b447-3043487b2725"
+                "UNIQUE_ID": "8124a0a1-08ee-4a00-b447-3043487b2725", 
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/sera-campus-south-end-recreation-adventure/",
+                "info": "OMG there's another queer Sunday park group! Let's join forces for a week! We'll meet by the playground. Access notes: heck yeah bathrooms and accessible parking."
             },
             "geometry": {
                 "type": "Point",
