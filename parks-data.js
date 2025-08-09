@@ -615,8 +615,8 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "81c3a247-488e-4984-8a45-79686ea18a9c", 
                 "website": "https://www.parkstacoma.gov/place/charlottes-blueberry-park/", 
-                "status": "upcoming",
-                "info": "Bring your pails (and your pals), it's time for the blueberry park! Let's meet by the playground. Access notes: looks like street parking and no bathrooms, but if you know more, text Emmer and we'll update this!"
+                "status": "visited",
+                "info": "Park #17! We visited on Aug. 3, 2025. Wow, what a special place! We celebrated Che's birthday with pancakes and fresh-picked blueberries. This will become a blueb season tradition for sure."
             },
             "geometry": {
                 "type": "Point",
@@ -1366,7 +1366,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "5d2a5d6e-e4da-4673-94a7-be87beb4e3a7"
+                "UNIQUE_ID": "5d2a5d6e-e4da-4673-94a7-be87beb4e3a7", 
+                "status": "upcoming",
+                "website": "https://www.metroparkstacoma.org/place/jack-hyde-park/",
+                "info": "Today I learned that Jack Hyde was a PhD volcanologist who also served as Tacoma mayor--for just 17 days before dying of a heart attck. Make of that what you will. <b>Access notes:</b> off-street parking across Ruston Way, bathrooms are a short walk down the Ruston Way Path. We'll meet near the sun dial!"
             },
             "geometry": {
                 "type": "Point",
