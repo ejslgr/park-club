@@ -1362,6 +1362,7 @@ var parks =
                 "PLANNING": "NW",
                 "MAINTNCE": "Point Defiance | Ruston",
                 "Address": "2201 Ruston Way, Tacoma, WA 98402",
+                "Address2": "Jack Hyde Park, 1741 N Schuster Pkwy, Tacoma, WA 98402",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98403,
@@ -1369,7 +1370,7 @@ var parks =
                 "UNIQUE_ID": "5d2a5d6e-e4da-4673-94a7-be87beb4e3a7", 
                 "status": "upcoming",
                 "website": "https://www.metroparkstacoma.org/place/jack-hyde-park/",
-                "info": "Today I learned that Jack Hyde was a PhD volcanologist who also served as Tacoma mayor--for just 17 days before dying of a heart attck. Make of that what you will. <b>Access notes:</b> off-street parking across Ruston Way, bathrooms are a short walk down the Ruston Way Path. We'll meet near the sun dial!"
+                "info": "Today I learned that Jack Hyde was a PhD volcanologist who also served as Tacoma mayor for just 17 days before dying of a heart attck. Make of that what you will. <b>Access notes:</b> off-street parking across Ruston Way or at Chinese Reconciliation Park, bathrooms are a short walk down the Ruston Way Path. We'll meet near the sun dial!"
             },
             "geometry": {
                 "type": "Point",
