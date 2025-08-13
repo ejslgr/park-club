@@ -946,7 +946,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98406,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "2d3ac2e2-3de4-4421-a26c-eafb8dbd5f66"
+                "UNIQUE_ID": "2d3ac2e2-3de4-4421-a26c-eafb8dbd5f66", 
+                "status": "upcoming",
+                "website":"https://www.parkstacoma.gov/place/optimist-park/",
+                "info": "The Parks website has remarkably little information about the history of this park, despite its somewhat intriguing name. Access notes: ADA accessible parking, but no bathrooms."
             },
             "geometry": {
                 "type": "Point",
@@ -1368,9 +1371,10 @@ var parks =
                 "Zip": 98403,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "5d2a5d6e-e4da-4673-94a7-be87beb4e3a7", 
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.metroparkstacoma.org/place/jack-hyde-park/",
-                "info": "Today I learned that Jack Hyde was a PhD volcanologist who also served as Tacoma mayor for just 17 days before dying of a heart attck. Make of that what you will. <b>Access notes:</b> off-street parking across Ruston Way or at Chinese Reconciliation Park, bathrooms are a short walk down the Ruston Way Path. We'll meet near the sun dial!"
+                "info-pre": "Today I learned that Jack Hyde was a PhD volcanologist who also served as Tacoma mayor for just 17 days before dying of a heart attck. Make of that what you will. <b>Access notes:</b> off-street parking across Ruston Way or at Chinese Reconciliation Park, bathrooms are a short walk down the Ruston Way Path. We'll meet near the sun dial!", 
+                "info": "Our 18th park! We visited on August 10, 2025. It was a hot one! We munched watermelon and dipped our toes in the low tide waters for some relief. General consensus is that it's time for parasols to make a comeback."
             },
             "geometry": {
                 "type": "Point",
