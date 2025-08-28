@@ -947,9 +947,9 @@ var parks =
                 "Zip": 98406,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "2d3ac2e2-3de4-4421-a26c-eafb8dbd5f66", 
-                "status": "upcoming",
+                "status": "visited",
                 "website":"https://www.parkstacoma.gov/place/optimist-park/",
-                "info": "The Parks website has remarkably little information about the history of this park, despite its somewhat intriguing name. Access notes: ADA accessible parking, but no bathrooms."
+                "info": "Park #19, visited on August 17, 2025. This was a pretty sweet little neighborhood park! Be warned about the playstructure though--the platforms that looks solid? Not so. They wobble and do not support the weight of an adult. Emmer has the bruises to prove it."
             },
             "geometry": {
                 "type": "Point",
@@ -1811,6 +1811,32 @@ var parks =
                 "coordinates": [
                     -122.52840402934197,
                     47.3132378040856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 978,
+                "NAME": "Firefighters' Park",
+                "CLASS": null,
+                "PLANNING": null,
+                "MAINTNCE": null,
+                "Address": "801 A St, Tacoma, WA 98402",
+                "City": "Tacoma",
+                "State": "WA",
+                "Zip": 98402,
+                "Bnd_Type": null,
+                "UNIQUE_ID": null,
+                "status": "upcoming",
+                "website": "https://uploads.knightlab.com/storymapjs/18ccf2439974ed10ed423825b65c2b32/labor-landmark-tour/index.html",
+                "info": "This one's owned by the City of Tacoma rather than Parks Tacoma. Access notes: Plenty of adjacent angle-in parking, but the only bathrooms are at businesses nearby."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.43752916941796,
+                    47.25613344281627,
                 ]
             }
         }
