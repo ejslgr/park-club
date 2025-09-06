@@ -850,7 +850,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "686b9e97-5a53-4485-8a52-da6e1c587007"
+                "UNIQUE_ID": "686b9e97-5a53-4485-8a52-da6e1c587007", 
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/dickman-mill-park/",
+                "info": "One of the last of the waterfront parks! There's a good field for playing as well as a beach and art installation. Access notes: parking across Ruston Way, and there is a bathroom. We're crossing our fingers for no rain!"
             },
             "geometry": {
                 "type": "Point",
@@ -1828,9 +1831,9 @@ var parks =
                 "Zip": 98402,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://uploads.knightlab.com/storymapjs/18ccf2439974ed10ed423825b65c2b32/labor-landmark-tour/index.html",
-                "info": "This one's owned by the City of Tacoma rather than Parks Tacoma. Access notes: Plenty of adjacent angle-in parking, but the only bathrooms are at businesses nearby."
+                "info": "Park #20, visited on August 31, 2025. Labor Day celebration at the site of old Engine House #6. Tacoma's fire department unionized in 1917!"
             },
             "geometry": {
                 "type": "Point",
