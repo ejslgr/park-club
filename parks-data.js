@@ -446,7 +446,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98408,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "cacc0d94-4071-4a1f-b791-e25925b85f8e"
+                "UNIQUE_ID": "cacc0d94-4071-4a1f-b791-e25925b85f8e",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/alling-park/",
+                "info": "Another former fruit farm turned park! Although it doesn't seems like this one has apples anymore. But it DOES have the former farmer's grave??"
             },
             "geometry": {
                 "type": "Point",
@@ -851,9 +854,10 @@ var parks =
                 "Zip": 98403,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "686b9e97-5a53-4485-8a52-da6e1c587007", 
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/dickman-mill-park/",
-                "info": "One of the last of the waterfront parks! There's a good field for playing as well as a beach and art installation. Access notes: parking across Ruston Way, and there is a bathroom. We're crossing our fingers for no rain!"
+                "pre-info": "One of the last of the waterfront parks! There's a good field for playing as well as a beach and art installation. Access notes: parking across Ruston Way, and there is a bathroom. We're crossing our fingers for no rain!",
+                "info": "Park #21! We visited on Sept. 7, 2025. It was a beautifully stinky low tide day on the waterfront, and the wildlife put on a show. We're talking boatloads of tiny crabs, a few great blue herons, and one very interesting bird of prey that none of us managed to identify."
             },
             "geometry": {
                 "type": "Point",
@@ -975,7 +979,9 @@ var parks =
                 "State": "WA",
                 "Zip": 98418,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "8f0878f8-7aba-42d7-bf94-4f6e3c8a33a6"
+                "UNIQUE_ID": "8f0878f8-7aba-42d7-bf94-4f6e3c8a33a6", 
+                "info": "Park #22! We visited on Sept. 14, 2025. Lincoln Park in Tacoma has a slightly different vibe than its more famous Chicago cousin, but it's got a great playground and a great field for soccer!",
+                "status": "visited"
             },
             "geometry": {
                 "type": "Point",
