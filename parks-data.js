@@ -447,9 +447,10 @@ var parks =
                 "Zip": 98408,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "cacc0d94-4071-4a1f-b791-e25925b85f8e",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/alling-park/",
-                "info": "Another former fruit farm turned park! Although it doesn't seems like this one has apples anymore. But it DOES have the former farmer's grave??"
+                "pre-info": "Another former fruit farm turned park! Although it doesn't seems like this one has apples anymore. But it DOES have the former farmer's grave??",
+                "info": "Park #23, and what a lovely one! We visited on Sept. 21, 2025. This one had a rolling field, enormous old trees, and incredible lore... We did not find any grave markers."
             },
             "geometry": {
                 "type": "Point",
@@ -1004,7 +1005,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "a971a30e-db4d-4adc-a61e-201a7409124c"
+                "UNIQUE_ID": "a971a30e-db4d-4adc-a61e-201a7409124c", 
+                "website": "https://www.parkstacoma.gov/place/ferry-park/",
+                "info": "This was Tacoma's very first park, and I HIGHLY recommend reading the park history section of its entry on the Parks website. Come for the 1940's children's protest (they won their demands!), stay for the absolutely brutal 1928 public art critique. Access notes: street parking, no bathroom.",
+                "status": "upcoming"
             },
             "geometry": {
                 "type": "Point",
