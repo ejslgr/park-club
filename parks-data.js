@@ -1007,8 +1007,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "a971a30e-db4d-4adc-a61e-201a7409124c", 
                 "website": "https://www.parkstacoma.gov/place/ferry-park/",
-                "info": "This was Tacoma's very first park, and I HIGHLY recommend reading the park history section of its entry on the Parks website. Come for the 1940's children's protest (they won their demands!), stay for the absolutely brutal 1928 public art critique. Access notes: street parking, no bathroom.",
-                "status": "upcoming"
+                "info_pre": "This was Tacoma's very first park, and I HIGHLY recommend reading the park history section of its entry on the Parks website. Come for the 1940's children's protest (they won their demands!), stay for the absolutely brutal 1928 public art critique. Access notes: street parking, no bathroom.",
+                "info": "This was park #24, and we visted on September 28, 2025. Tacoma's oldest park, it's still a winner. Here's hoping the trees that were recently felled get replanted.",
+                "status": "visited"
             },
             "geometry": {
                 "type": "Point",
@@ -1267,7 +1268,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "ae84288e-7795-41fb-857a-5f7a015a356b"
+                "UNIQUE_ID": "ae84288e-7795-41fb-857a-5f7a015a356b", 
+                "website": "https://www.parkstacoma.gov/place/garfield-park/",
+                "status": "upcoming",
+                "info": "You might have thought this was part of the Annie Wright grounds, but it's a wonderful park with playground, field, and paths through the woods. Access notes: street parking, no bathrooms."
             },
             "geometry": {
                 "type": "Point",
