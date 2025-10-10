@@ -1270,8 +1270,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "ae84288e-7795-41fb-857a-5f7a015a356b", 
                 "website": "https://www.parkstacoma.gov/place/garfield-park/",
-                "status": "upcoming",
-                "info": "You might have thought this was part of the Annie Wright grounds, but it's a wonderful park with playground, field, and paths through the woods. Access notes: street parking, no bathrooms."
+                "status": "visited",
+                "pre-info": "You might have thought this was part of the Annie Wright grounds, but it's a wonderful park with playground, field, and paths through the woods. Access notes: street parking, no bathrooms.",
+                "info": "Park #25! We visited on Oct. 5, 2025. The Parks website claims this is not an off-leash dog park, but the neighbors have not gotten the memo. Bless them and their sweet, sweet pups."
             },
             "geometry": {
                 "type": "Point",
@@ -1834,7 +1835,7 @@ var parks =
         {
             "type": "Feature",
             "properties": {
-                "OBJECTID": 978,
+                "OBJECTID": 979,
                 "NAME": "Firefighters' Park",
                 "CLASS": null,
                 "PLANNING": null,
@@ -1854,6 +1855,32 @@ var parks =
                 "coordinates": [
                     -122.43752916941796,
                     47.25613344281627,
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 980,
+                "NAME": "Japanese Garden in Point Defiance Park",
+                "CLASS": null,
+                "PLANNING": null,
+                "MAINTNCE": null,
+                "Address": "5801 Trolley Ln",
+                "City": "Tacoma",
+                "State": "WA",
+                "Zip": 98407,
+                "Bnd_Type": null,
+                "UNIQUE_ID": null,
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/japanese-garden/",
+                "info": "Yes we've been to Point Defiance before, but not to this part! If it rains, we'll take shelter in the wooded area on the other side of the Pagoda. Access notes: bathrooms by the Rose Garden."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.51658354258696,
+                    47.305923828663545, 
                 ]
             }
         }
