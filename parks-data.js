@@ -89,7 +89,9 @@ var parks =
                 "Zip": 98409,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "ade96329-c39c-44be-ad19-de6c84ec7a6f",
-                //"status": "upcoming"
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/wapato-hills/", 
+                "info": "Like other Tacoma parks, this is a former utility site now put to recreational use. In this case, a planned reservoir never got built, and we now have a trail system and playground to show for it. Access notes: bathroom looks closed for the season; mostly on-street parking, but it looks like there are also some ADA spots."
             },
             "geometry": {
                 "type": "Point",
@@ -1872,9 +1874,11 @@ var parks =
                 "Zip": 98407,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/japanese-garden/",
-                "info": "Yes we've been to Point Defiance before, but not to this part! If it rains, we'll take shelter in the wooded area on the other side of the Pagoda. Access notes: bathrooms by the Rose Garden."
+                "pre_info": "Yes we've been to Point Defiance before, but not to this part! If it rains, we'll take shelter in the wooded area on the other side of the Pagoda. Access notes: bathrooms by the Rose Garden.",
+                "info": "Park #26! We visited on Oct. 12, 2025. On a chilly, windy day, the Japanese garden was delightfully sheltered, and the company was more than warm! Hot apple cider helped too."
+
             },
             "geometry": {
                 "type": "Point",
