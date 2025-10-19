@@ -89,7 +89,7 @@ var parks =
                 "Zip": 98409,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "ade96329-c39c-44be-ad19-de6c84ec7a6f",
-                "status": "upcoming", 
+                //"status": "upcoming", 
                 "website": "https://www.parkstacoma.gov/place/wapato-hills/", 
                 "info": "Like other Tacoma parks, this is a former utility site now put to recreational use. In this case, a planned reservoir never got built, and we now have a trail system and playground to show for it. Access notes: bathroom looks closed for the season; mostly on-street parking, but it looks like there are also some ADA spots."
             },
@@ -137,7 +137,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98409,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "35ff54d0-3fa9-4a2d-8701-b33d4c7f48aa"
+                "UNIQUE_ID": "35ff54d0-3fa9-4a2d-8701-b33d4c7f48aa", 
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/manitou-park/", 
+                "info": "Sorry for the last minute park change! We're worried that there isn't actually a picnic shelter at Wapato Hills, so we're switching to Manitou Park on account of the rain forecasted. Diwali celebration plans are still on! Access notes: looks like the bathroom here is also closed for the season. :/"
             },
             "geometry": {
                 "type": "Point",
