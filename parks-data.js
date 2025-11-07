@@ -138,9 +138,10 @@ var parks =
                 "Zip": 98409,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "35ff54d0-3fa9-4a2d-8701-b33d4c7f48aa", 
-                "status": "upcoming", 
+                "status": "visited", 
                 "website": "https://www.parkstacoma.gov/place/manitou-park/", 
-                "info": "Sorry for the last minute park change! We're worried that there isn't actually a picnic shelter at Wapato Hills, so we're switching to Manitou Park on account of the rain forecasted. Diwali celebration plans are still on! Access notes: looks like the bathroom here is also closed for the season. :/"
+                "pre-info": "Sorry for the last minute park change! We're worried that there isn't actually a picnic shelter at Wapato Hills, so we're switching to Manitou Park on account of the rain forecasted. Diwali celebration plans are still on! Access notes: looks like the bathroom here is also closed for the season. :/", 
+                "info": "Park #27! We visted on Oct. 19, 2025 and celebrated a wet and windy Diwali here. I think we set a record for first-time attendees, too!"
             },
             "geometry": {
                 "type": "Point",
@@ -1516,7 +1517,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98404,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "582390a3-22cb-48a4-964d-69a3e15b0d8b"
+                "UNIQUE_ID": "582390a3-22cb-48a4-964d-69a3e15b0d8b", 
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/stewart-heights-park/",
+                "info": "Parks Tacoma calls this a 'signature' park, so you know it's gonna be a good one. We'll meet by the playground/picnic shelter. Access notes: lots of parking, and the bathroom is open even in the winter!"
             },
             "geometry": {
                 "type": "Point",
