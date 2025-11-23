@@ -269,29 +269,29 @@ var parks =
                 ]
             }
         },
-        {
-            "type": "Feature",
-            "properties": {
-                "OBJECTID": 104,
-                "NAME": "Meadow Park Golf Course",
-                "CLASS": "Signature",
-                "PLANNING": "SW",
-                "MAINTNCE": "South",
-                "Address": "7108 Lakewood Dr, Tacoma, WA 98467",
-                "City": "Tacoma",
-                "State": "WA",
-                "Zip": 98467,
-                "Bnd_Type": "Park",
-                "UNIQUE_ID": "2d996fd4-e2bd-4920-94dc-28fb60bc6580"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.514100761276,
-                    47.196122872583
-                ]
-            }
-        },
+        // {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "OBJECTID": 104,
+        //         "NAME": "Meadow Park Golf Course",
+        //         "CLASS": "Signature",
+        //         "PLANNING": "SW",
+        //         "MAINTNCE": "South",
+        //         "Address": "7108 Lakewood Dr, Tacoma, WA 98467",
+        //         "City": "Tacoma",
+        //         "State": "WA",
+        //         "Zip": 98467,
+        //         "Bnd_Type": "Park",
+        //         "UNIQUE_ID": "2d996fd4-e2bd-4920-94dc-28fb60bc6580"
+        //     },
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        //             -122.514100761276,
+        //             47.196122872583
+        //         ]
+        //     }
+        // },
         {
             "type": "Feature",
             "properties": {
@@ -1518,9 +1518,9 @@ var parks =
                 "Zip": 98404,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "582390a3-22cb-48a4-964d-69a3e15b0d8b", 
-                "status": "upcoming", 
+                "status": "visited", 
                 "website": "https://www.parkstacoma.gov/place/stewart-heights-park/",
-                "info": "Parks Tacoma calls this a 'signature' park, so you know it's gonna be a good one. We'll meet by the playground/picnic shelter. Access notes: lots of parking, and the bathroom is open even in the winter!"
+                "info": "Park #28! Not as many giant puppets there as the day of the No Kings rally, but still a wonderful park to spend a sunny Sunday morning."
             },
             "geometry": {
                 "type": "Point",
