@@ -1347,7 +1347,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98404,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "1b3aa9cf-b842-4d9c-b456-a48c04b2c0aa"
+                "UNIQUE_ID": "1b3aa9cf-b842-4d9c-b456-a48c04b2c0aa", 
+                "website": "https://www.parkstacoma.gov/place/mckinley-park/",
+                "status": "upcoming", 
+                "info": "This week's historical trivia: McKinley park was something of a victim of eminent domain and urban renewal, with 4 acres of the park lost for the construction of I-5 in the 1960s. Despite this, the park is still home to a 'wetland of local significance' and multiple streams. We'll meet by the playground! Access notes: not the best parking (blame that freeway!), and the bathrooms are closed for the season."
             },
             "geometry": {
                 "type": "Point",
