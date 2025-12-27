@@ -187,7 +187,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98406,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "e36f5425-b450-4c6b-8c21-56afae195761"
+                "UNIQUE_ID": "e36f5425-b450-4c6b-8c21-56afae195761", 
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/jefferson-park/", 
+                "info": "Once a wild fen containing 'several large ponds dangerous for the small children of the neighborhood,' this park was graded and leveled by the WPA during the Great Depression, giving it its somewhat sterile, flat vibe today. Nevertheless, it's a great neighborhood park with excellent play infrastructure. Access notes: ample street parking, but bathrooms are closed for the winter."
             },
             "geometry": {
                 "type": "Point",
@@ -1349,8 +1352,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "1b3aa9cf-b842-4d9c-b456-a48c04b2c0aa", 
                 "website": "https://www.parkstacoma.gov/place/mckinley-park/",
-                "status": "upcoming", 
-                "info": "This week's historical trivia: McKinley park was something of a victim of eminent domain and urban renewal, with 4 acres of the park lost for the construction of I-5 in the 1960s. Despite this, the park is still home to a 'wetland of local significance' and multiple streams. We'll meet by the playground! Access notes: not the best parking (blame that freeway!), and the bathrooms are closed for the season."
+                "status": "visited", 
+                "pre-info": "This week's historical trivia: McKinley park was something of a victim of eminent domain and urban renewal, with 4 acres of the park lost for the construction of I-5 in the 1960s. Despite this, the park is still home to a 'wetland of local significance' and multiple streams. We'll meet by the playground! Access notes: not the best parking (blame that freeway!), and the bathrooms are closed for the season.",
+                "info": "Park #29! We visted on Nov. 30, 2025. Despite the highway noise, this park was sweet. Tres skater chic."
             },
             "geometry": {
                 "type": "Point",
