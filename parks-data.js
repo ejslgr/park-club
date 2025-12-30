@@ -188,9 +188,10 @@ var parks =
                 "Zip": 98406,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "e36f5425-b450-4c6b-8c21-56afae195761", 
-                "status": "upcoming",
+                "status": "status",
                 "website": "https://www.parkstacoma.gov/place/jefferson-park/", 
-                "info": "Once a wild fen containing 'several large ponds dangerous for the small children of the neighborhood,' this park was graded and leveled by the WPA during the Great Depression, giving it its somewhat sterile, flat vibe today. Nevertheless, it's a great neighborhood park with excellent play infrastructure. Access notes: ample street parking, but bathrooms are closed for the winter."
+                "pre-info": "Once a wild fen containing 'several large ponds dangerous for the small children of the neighborhood,' this park was graded and leveled by the WPA during the Great Depression, giving it its somewhat sterile, flat vibe today. Nevertheless, it's a great neighborhood park with excellent play infrastructure. Access notes: ample street parking, but bathrooms are closed for the winter.", 
+                "info": "Park #30! We visited on Dec. 28, 2025. A rare sunny day in a stretch of downpours, this one sure felt like a Christmas miracle. The cold never bothered us anyway."
             },
             "geometry": {
                 "type": "Point",
@@ -1871,6 +1872,33 @@ var parks =
                 "coordinates": [
                     -122.43752916941796,
                     47.25613344281627,
+                ]
+            }
+        },
+                {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 979,
+                "NAME": "Dash Point State Paek",
+                "CLASS": null,
+                "PLANNING": null,
+                "MAINTNCE": null,
+                "Address": "5700 SW Dash Point Rd, Federal Way, WA 98023",
+                "Address2":"47.31872046536722, -122.41288021125139", 
+                "City": "Federal Way",
+                "State": "WA",
+                "Zip": 98423,
+                "Bnd_Type": null,
+                "UNIQUE_ID": null,
+                "status": "upcoming",
+                "website": "https://parks.wa.gov/find-parks/state-parks/dash-point-state-park",
+                "info": "Bring a mug and soup bowl and celebrate the New Year with us on the beach! Access info: park entrance is free on New Year's, and there are bathroomds. We recommend bringing a camping chair if you've got one."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.4142395915946,
+                    47.320207917637056,
                 ]
             }
         },
