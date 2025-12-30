@@ -1892,7 +1892,7 @@ var parks =
                 "UNIQUE_ID": null,
                 "status": "upcoming",
                 "website": "https://parks.wa.gov/find-parks/state-parks/dash-point-state-park",
-                "info": "Bring a mug and soup bowl and celebrate the New Year with us on the beach! Access info: park entrance is free on New Year's, and there are bathroomds. We recommend bringing a camping chair if you've got one."
+                "info": "Bring a mug and soup bowl and celebrate the New Year with us on the beach! From the parking lot closest to the beach, there is a paved path through a tunnel. When you see the bathrooms on your right, take the small foot bridge to your left and find us there near the fire pits. Access info: park entrance is free on New Year's, and there are bathroomds. We recommend bringing a camping chair if you've got one."
             },
             "geometry": {
                 "type": "Point",
