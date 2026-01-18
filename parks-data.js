@@ -1502,7 +1502,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "05526960-680a-41f4-b011-8e6168965f8e"
+                "UNIQUE_ID": "05526960-680a-41f4-b011-8e6168965f8e", 
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/wright-park/", 
+                "info": "A sunny Sunday in January? We gotta jump on that. Let's meet by the playground. And the Conservatory opens at 10 if we need a place to warm up! Access notes: bathrooms are OPEN. Parking on I Street around 4th gets you closes to the playground."
             },
             "geometry": {
                 "type": "Point",
@@ -1890,9 +1893,10 @@ var parks =
                 "Zip": 98423,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://parks.wa.gov/find-parks/state-parks/dash-point-state-park",
-                "info": "Bring a mug and soup bowl and celebrate the New Year with us on the beach! From the parking lot closest to the beach, there is a paved path through a tunnel. When you see the bathrooms on your right, take the small foot bridge to your left and find us there near the fire pits. Access info: park entrance is free on New Year's, and there are bathroomds. We recommend bringing a camping chair if you've got one."
+                "pre-info": "Bring a mug and soup bowl and celebrate the New Year with us on the beach! From the parking lot closest to the beach, there is a paved path through a tunnel. When you see the bathrooms on your right, take the small foot bridge to your left and find us there near the fire pits. Access info: park entrance is free on New Year's, and there are bathroomds. We recommend bringing a camping chair if you've got one.", 
+                "info": "A beachside fire, 5 amazing soups, and hot drinks for hours...What a sweet, sweet way to ring in the new year. Park Club State Park edition was swell!"
             },
             "geometry": {
                 "type": "Point",
