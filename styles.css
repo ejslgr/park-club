@@ -18,6 +18,12 @@ h1, h3, h2, li {
     text-align: center;
   }
 
+  #top-text {
+    color: #563517;
+    font-family: "Winky Sans", sans-serif;
+    text-align: center
+  }
+
   #legend {
 		/* line-height: 100%; */
 		background: white;

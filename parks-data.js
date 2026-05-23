@@ -188,10 +188,10 @@ var parks =
                 "Zip": 98406,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "e36f5425-b450-4c6b-8c21-56afae195761", 
-                "status": "status",
+                "status": "upcoming",
                 "website": "https://www.parkstacoma.gov/place/jefferson-park/", 
                 "pre-info": "Once a wild fen containing 'several large ponds dangerous for the small children of the neighborhood,' this park was graded and leveled by the WPA during the Great Depression, giving it its somewhat sterile, flat vibe today. Nevertheless, it's a great neighborhood park with excellent play infrastructure. Access notes: ample street parking, but bathrooms are closed for the winter.", 
-                "info": "Park #30! We visited on Dec. 28, 2025. A rare sunny day in a stretch of downpours, this one sure felt like a Christmas miracle. The cold never bothered us anyway."
+                "info": "Park #30! We visited on Dec. 28, 2025. A rare sunny day in a stretch of downpours, this one sure felt like a Christmas miracle. The cold never bothered us anyway. -- Oops! Emmer messed up the map and we didn't notice we'd been here before. Accidental take 2 coming May 24, 2026!"
             },
             "geometry": {
                 "type": "Point",
@@ -581,7 +581,9 @@ var parks =
                 "State": "WA",
                 "Zip": 98409,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "28d6aa2d-11d2-455f-854a-b6d06085e124"
+                "UNIQUE_ID": "28d6aa2d-11d2-455f-854a-b6d06085e124", 
+                "status": "visited",
+                "info": "Our first park back after a long hiatus. Baby Nico slept through his entire first park club!"
             },
             "geometry": {
                 "type": "Point",
@@ -1503,7 +1505,7 @@ var parks =
                 "Zip": 98405,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "05526960-680a-41f4-b011-8e6168965f8e", 
-                "status": "upcoming", 
+                "status": "visited", 
                 "website": "https://www.parkstacoma.gov/place/wright-park/", 
                 "info": "A sunny Sunday in January? We gotta jump on that. Let's meet by the playground. And the Conservatory opens at 10 if we need a place to warm up! Access notes: bathrooms are OPEN. Parking on I Street around 4th gets you closes to the playground."
             },
