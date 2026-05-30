@@ -188,10 +188,10 @@ var parks =
                 "Zip": 98406,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "e36f5425-b450-4c6b-8c21-56afae195761", 
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/jefferson-park/", 
                 "pre-info": "Once a wild fen containing 'several large ponds dangerous for the small children of the neighborhood,' this park was graded and leveled by the WPA during the Great Depression, giving it its somewhat sterile, flat vibe today. Nevertheless, it's a great neighborhood park with excellent play infrastructure. Access notes: ample street parking, but bathrooms are closed for the winter.", 
-                "info": "Park #30! We visited on Dec. 28, 2025. A rare sunny day in a stretch of downpours, this one sure felt like a Christmas miracle. The cold never bothered us anyway. -- Oops! Emmer messed up the map and we didn't notice we'd been here before. Accidental take 2 coming May 24, 2026!"
+                "info": "Park #30! We visited on Dec. 28, 2025. A rare sunny day in a stretch of downpours, this one sure felt like a Christmas miracle. Accidental take 2 on May 24, 2026!"
             },
             "geometry": {
                 "type": "Point",
@@ -236,11 +236,15 @@ var parks =
                 "PLANNING": "SE",
                 "MAINTNCE": "South",
                 "Address": "502 S 88th St, Tacoma, WA 98444",
+                "AddressB": "47.17733083990988, -122.43842925469606",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98444,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "27d6f76d-7d61-4aa2-a751-f6194f5a337d"
+                "UNIQUE_ID": "27d6f76d-7d61-4aa2-a751-f6194f5a337d",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/fern-hill-park/",
+                "info": "The quest to visit every park in Tacoma continues! This week we're headed to Fern Hill Park in South Tacoma. Access notes: street parking and no bathrooms. This is a smaller neighborhood park."
             },
             "geometry": {
                 "type": "Point",
