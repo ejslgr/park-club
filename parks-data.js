@@ -242,9 +242,10 @@ var parks =
                 "Zip": 98444,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "27d6f76d-7d61-4aa2-a751-f6194f5a337d",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/fern-hill-park/",
-                "info": "The quest to visit every park in Tacoma continues! This week we're headed to Fern Hill Park in South Tacoma. Access notes: street parking and no bathrooms. This is a smaller neighborhood park."
+                "info": "For a small neighborhood park, this one was very sweet, with a big field and a massive shade tree.",
+                "pre-info": "The quest to visit every park in Tacoma continues! This week we're headed to Fern Hill Park in South Tacoma. Access notes: street parking and no bathrooms. This is a smaller neighborhood park."
             },
             "geometry": {
                 "type": "Point",
@@ -654,12 +655,15 @@ var parks =
                 "CLASS": "Urban",
                 "PLANNING": "NW",
                 "MAINTNCE": "NE | Central",
-                "Address": "S 4th St & Dock St, Tacoma, WA 98402",
+                "Address": "405 Dock St Tacoma, WA 98402",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98402,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "3f8c84fb-7535-4df7-bd4f-a3757f8a868a"
+                "UNIQUE_ID": "3f8c84fb-7535-4df7-bd4f-a3757f8a868a",
+                "status": "upcoming", 
+                "website": "https://www.parkstacoma.gov/place/theas-park/",
+                "info": "A waterfront park with some industrial vibes too, this one is pure Tacoma. Here's hoping we find a hidden World Cup glass medallion! Access notes: no bathrooms, but there is parking available."
             },
             "geometry": {
                 "type": "Point",
