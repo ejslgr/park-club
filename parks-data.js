@@ -661,9 +661,10 @@ var parks =
                 "Zip": 98402,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "3f8c84fb-7535-4df7-bd4f-a3757f8a868a",
-                "status": "upcoming", 
+                "status": "visited", 
                 "website": "https://www.parkstacoma.gov/place/theas-park/",
-                "info": "A waterfront park with some industrial vibes too, this one is pure Tacoma. Here's hoping we find a hidden World Cup glass medallion! Access notes: no bathrooms, but there is parking available."
+                "pre-info": "A waterfront park with some industrial vibes too, this one is pure Tacoma. Here's hoping we find a hidden World Cup glass medallion! Access notes: no bathrooms, but there is parking available.",
+                "info": "This was park #34, visited on June 7, 2026. Some of us waded in the water to look at sea life while others enjoyed the shade of tall trees."
             },
             "geometry": {
                 "type": "Point",
@@ -1210,22 +1211,24 @@ var parks =
             "type": "Feature",
             "properties": {
                 "OBJECTID": 143,
-                "NAME": "Proctor Community Garden",
+                "NAME": "Univeristy of Puget Sound Quad",
                 "CLASS": "Other Park Lands",
                 "PLANNING": "NW",
                 "MAINTNCE": "West",
-                "Address": "3901 N 21st St, Tacoma, WA 98407",
+                "Address": "Wyatt Hall, 1500 N Warner St, Tacoma, WA 98416",
                 "City": "Tacoma",
                 "State": "WA",
-                "Zip": 98406,
+                "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "1e6edd0f-15ea-487a-9d33-2d8c3e4cb805"
+                "UNIQUE_ID": "1e6edd0f-15ea-487a-9d33-2d8c3e4cb805",
+                "status":"upcoming",
+                "info": "Schools out for summer! Come join us on the quad in front of Wyatt Hall for a special edition of Park Club at UPS. Access notes: We can use the bathrooms inside Wyatt Hall and we think parking is free during the summer."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.489581667048,
-                    47.2676296334439
+                    -122.482293,
+                    47.261859
                 ]
             }
         },
