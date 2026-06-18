@@ -1221,8 +1221,9 @@ var parks =
                 "Zip": 98403,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "1e6edd0f-15ea-487a-9d33-2d8c3e4cb805",
-                "status":"upcoming",
-                "info": "Schools out for summer! Come join us on the quad in front of Wyatt Hall for a special edition of Park Club at UPS. Access notes: We can use the bathrooms inside Wyatt Hall and we think parking is free during the summer."
+                "status":"visited",
+                "pre-info": "Schools out for summer! Come join us on the quad in front of Wyatt Hall for a special edition of Park Club at UPS. Access notes: We can use the bathrooms inside Wyatt Hall and we think parking is free during the summer.",
+                "info": "We ate fruity pebble donuts and enjoyed the beutifully landscaped campus quad."
             },
             "geometry": {
                 "type": "Point",
