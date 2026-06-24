@@ -1223,7 +1223,7 @@ var parks =
                 "UNIQUE_ID": "1e6edd0f-15ea-487a-9d33-2d8c3e4cb805",
                 "status":"visited",
                 "pre-info": "Schools out for summer! Come join us on the quad in front of Wyatt Hall for a special edition of Park Club at UPS. Access notes: We can use the bathrooms inside Wyatt Hall and we think parking is free during the summer.",
-                "info": "We ate fruity pebble donuts and enjoyed the beutifully landscaped campus quad."
+                "info": "We ate fruity pebbles donuts and enjoyed the beautifully landscaped campus quad."
             },
             "geometry": {
                 "type": "Point",
@@ -1392,7 +1392,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "5de308bb-34a0-4fba-8312-1cd98dd549bb"
+                "UNIQUE_ID": "5de308bb-34a0-4fba-8312-1cd98dd549bb",
+                "website":"https://www.parkstacoma.gov/place/stanley-playfield/",
+                "status":"upcoming",
+                "info":"Lena & Iggy will guest host this Sunday at their school's playfields. Bring a folding chair and your mug. <p> Access notes: No bathrooms. Parking is available in the school lot off of S 17th Street. Walk through the gate at the back of the lot, near the field, and follow the path back to the playgrounds. We will either be set up under the shelter, or in the playfield. If using public transit, there is a bus stop in front of the field on 19th."
             },
             "geometry": {
                 "type": "Point",
