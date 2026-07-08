@@ -1265,11 +1265,15 @@ var parks =
                 "PLANNING": "NW",
                 "MAINTNCE": "West",
                 "Address": "4702 S 12th St, Tacoma, WA 98405",
+                "Address2": "47.24954680030547, -122.49968869129539",
                 "City": "Tacoma",
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "9474a77c-4f2b-4d54-b890-e3591dc8a84c"
+                "UNIQUE_ID": "9474a77c-4f2b-4d54-b890-e3591dc8a84c",
+                "website":"https://www.parkstacoma.gov/place/delong-park/",
+                "status": "upcoming",
+                "info": "Delong Park is one of Tacoma's natural areas. Take a walk on the trail around the wetland and former dumpsite for Tacoma Public Schools (yikes!). Restored in the 1970's and further in 1996, the park is now a sweet spot to birdwatch. Meet us in the open field off of South 12th Street."
             },
             "geometry": {
                 "type": "Point",
@@ -1394,8 +1398,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "5de308bb-34a0-4fba-8312-1cd98dd549bb",
                 "website":"https://www.parkstacoma.gov/place/stanley-playfield/",
-                "status":"upcoming",
-                "info":"Lena & Iggy will guest host this Sunday at their school's playfields. Bring a folding chair and your mug. <p> Access notes: No bathrooms. Parking is available in the school lot off of S 17th Street. Walk through the gate at the back of the lot, near the field, and follow the path back to the playgrounds. We will either be set up under the shelter, or in the playfield. If using public transit, there is a bus stop in front of the field on 19th."
+                "status":"visited",
+                "pre-info":"Lena & Iggy will guest host this Sunday at their school's playfields. Bring a folding chair and your mug. <p> Access notes: No bathrooms. Parking is available in the school lot off of S 17th Street. Walk through the gate at the back of the lot, near the field, and follow the path back to the playgrounds. We will either be set up under the shelter, or in the playfield. If using public transit, there is a bus stop in front of the field on 19th.",
+                "info": "This was park #36, hosted by Lena & Iggy at their school playfields. Coffee and treats were delightful!"
             },
             "geometry": {
                 "type": "Point",
