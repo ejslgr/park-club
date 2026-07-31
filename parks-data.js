@@ -366,7 +366,9 @@ var parks =
                 "State": "WA",
                 "Zip": 98403,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "3372a79b-af9d-40dc-b400-e66f2863285f"
+                "UNIQUE_ID": "3372a79b-af9d-40dc-b400-e66f2863285f", 
+                "status": "visited", 
+                "info": "Park number #38. We visited on July 25, 2026 and enjoyed shady grass, a small but mighty playground, and plums to share. Summer showing off!"
             },
             "geometry": {
                 "type": "Point",
@@ -1272,8 +1274,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "9474a77c-4f2b-4d54-b890-e3591dc8a84c",
                 "website":"https://www.parkstacoma.gov/place/delong-park/",
-                "status": "upcoming",
-                "info": "Delong Park is one of Tacoma's natural areas. Take a walk on the trail around the wetland and former dumpsite for Tacoma Public Schools (yikes!). Restored in the 1970's and further in 1996, the park is now a sweet spot to birdwatch. Meet us in the open field off of South 12th Street."
+                "status": "visited",
+                "pre-info": "Delong Park is one of Tacoma's natural areas. Take a walk on the trail around the wetland and former dumpsite for Tacoma Public Schools (yikes!). Restored in the 1970's and further in 1996, the park is now a sweet spot to birdwatch. Meet us in the open field off of South 12th Street.", 
+                "info": "Park #37! Most of us enjoyed a sweet sunny morning in the field, and a few also braved the mosquitoes for a walk through the wetland path!"
             },
             "geometry": {
                 "type": "Point",
@@ -1862,9 +1865,9 @@ var parks =
                 "Zip": 98407,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "visited",
+                "status": "upcoming",
                 "website": "https://www.parkstacoma.gov/place/owen-beach/",
-                "info": "We visited this park on March 23, 2025. It was our first park! We thought we saw orcas at one point, but we're pretty sure it was just waves."
+                "info": "We visited this park on March 23, 2025. It was our first park! We thought we saw orcas at one point, but we're pretty sure it was just waves. And we're going back to celebrate Che's 40th on Aug. 2--no blueberries, but we'll still make pancakes!"
             },
             "geometry": {
                 "type": "Point",
