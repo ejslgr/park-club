@@ -164,7 +164,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98407,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "22c65a3d-0ed7-48e3-9d5f-e8360ba154e4"
+                "UNIQUE_ID": "22c65a3d-0ed7-48e3-9d5f-e8360ba154e4", 
+                "status": "upcoming",
+                "website":"https://www.parkstacoma.gov/place/jane-clark-park/",
+                "info":"Jane Clark was an independant scholar and mother to local grocer Benjamin Harvey. Access notes: street parking, and we think there's a portajohn but the website is unclear." 
             },
             "geometry": {
                 "type": "Point",
@@ -1865,9 +1868,9 @@ var parks =
                 "Zip": 98407,
                 "Bnd_Type": null,
                 "UNIQUE_ID": null,
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/owen-beach/",
-                "info": "We visited this park on March 23, 2025. It was our first park! We thought we saw orcas at one point, but we're pretty sure it was just waves. And we're going back to celebrate Che's 40th on Aug. 2--no blueberries, but we'll still make pancakes! Access notes: lots of parking and bathrooms. We'll meet under or near the shelter."
+                "info": "We visited this park on March 23, 2025. It was our first park! We thought we saw orcas at one point, but we're pretty sure it was just waves. We returned on August 2,2026 to celebrate Che's 40th birthday with pancakes!"
             },
             "geometry": {
                 "type": "Point",
