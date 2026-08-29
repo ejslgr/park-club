@@ -15,7 +15,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98407,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "09dfaab5-1a52-40a3-9d38-4f51b3edf849"
+                "UNIQUE_ID": "09dfaab5-1a52-40a3-9d38-4f51b3edf849",
+                "website":"https://www.parkstacoma.gov/place/kandle-park/",
+                "status":"upcoming",
+                "info":"Ah, Kandle Park. Home of Pierce County's first wave pool. While we won't be going for a swim this Sunday, we do want you to know that for only $800 we could rent out the entire pool for a night. Dream big park club! Access notes: Bathrooms are open!"
             },
             "geometry": {
                 "type": "Point",
@@ -165,9 +168,10 @@ var parks =
                 "Zip": 98407,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "22c65a3d-0ed7-48e3-9d5f-e8360ba154e4", 
-                "status": "upcoming",
+                "status": "visited",
                 "website":"https://www.parkstacoma.gov/place/jane-clark-park/",
-                "info":"Jane Clark was an independant scholar and mother to local grocer Benjamin Harvey. Access notes: street parking, and we think there's a portajohn but the website is unclear." 
+                "pre-info":"Jane Clark was an independant scholar and mother to local grocer Benjamin Harvey. Access notes: street parking, and we think there's a portajohn but the website is unclear.", 
+                "info":"We visited this park on August 9, 2026 joined by many new friends!"
             },
             "geometry": {
                 "type": "Point",
