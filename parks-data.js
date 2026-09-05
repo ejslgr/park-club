@@ -17,8 +17,9 @@ var parks =
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "09dfaab5-1a52-40a3-9d38-4f51b3edf849",
                 "website":"https://www.parkstacoma.gov/place/kandle-park/",
-                "status":"upcoming",
-                "info":"Ah, Kandle Park. Home of Pierce County's first wave pool. While we won't be going for a swim this Sunday, we do want you to know that for only $800 we could rent out the entire pool for a night. Dream big park club! Access notes: Bathrooms are open!"
+                "status":"visited",
+                "pre-info":"Ah, Kandle Park. Home of Pierce County's first wave pool. While we won't be going for a swim this Sunday, we do want you to know that for only $800 we could rent out the entire pool for a night. Dream big park club! Access notes: Bathrooms are open!",
+                "info": "We visited on August 30, 2026. Busy playground and great shade trees!"
             },
             "geometry": {
                 "type": "Point",
@@ -815,7 +816,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98404,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "e02a00c6-6ea3-4632-af2b-fe4e868fe95d"
+                "UNIQUE_ID": "e02a00c6-6ea3-4632-af2b-fe4e868fe95d",
+                "status":"upcoming",
+                "website":"https://www.parkstacoma.gov/place/cloverdale-park/",
+                "info":"This is a small neighborhood park with a playground but no bathroom. Portland Ave Nursery is nearby!"
             },
             "geometry": {
                 "type": "Point",
