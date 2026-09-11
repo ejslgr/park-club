@@ -817,9 +817,10 @@ var parks =
                 "Zip": 98404,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "e02a00c6-6ea3-4632-af2b-fe4e868fe95d",
-                "status":"upcoming",
+                "status":"visited",
                 "website":"https://www.parkstacoma.gov/place/cloverdale-park/",
-                "info":"This is a small neighborhood park with a playground but no bathroom. Portland Ave Nursery is nearby!"
+                "pre-info":"This is a small neighborhood park with a playground but no bathroom. Portland Ave Nursery is nearby!",
+                "info": "We visited this spacious park on September 6, 2026. Great picnic shelter to shield us from the late summer sun!"
             },
             "geometry": {
                 "type": "Point",
@@ -1135,7 +1136,11 @@ var parks =
                 "State": "WA",
                 "Zip": 98405,
                 "Bnd_Type": "Park",
-                "UNIQUE_ID": "c1b08d0d-7a54-41d4-b0d1-155f880f7124"
+                "UNIQUE_ID": "c1b08d0d-7a54-41d4-b0d1-155f880f7124",
+                "status": "upcoming",
+                "website": "https://www.parkstacoma.gov/place/neighbors-park/",
+                "info": "In case the name didn't give it away, this park was built by neighbors at 8th & I. Come check out this small half-acre park with us! Access notes: no bathrooms on site, but the park is a 5-minute walk from Wright Park."
+
             },
             "geometry": {
                 "type": "Point",
