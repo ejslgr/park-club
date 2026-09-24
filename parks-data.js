@@ -1137,9 +1137,10 @@ var parks =
                 "Zip": 98405,
                 "Bnd_Type": "Park",
                 "UNIQUE_ID": "c1b08d0d-7a54-41d4-b0d1-155f880f7124",
-                "status": "upcoming",
+                "status": "visited",
                 "website": "https://www.parkstacoma.gov/place/neighbors-park/",
-                "info": "In case the name didn't give it away, this park was built by neighbors at 8th & I. Come check out this small half-acre park with us! Access notes: no bathrooms on site, but the park is a 5-minute walk from Wright Park."
+                "pre-info": "In case the name didn't give it away, this park was built by neighbors at 8th & I. Come check out this small half-acre park with us! Access notes: no bathrooms on site, but the park is a 5-minute walk from Wright Park.",
+                "info": "We visited this park on September 20, 2026. We enjoyed apples from the garden and warm late summer sunshine."
 
             },
             "geometry": {
@@ -1811,7 +1812,10 @@ var parks =
                 "State": "WA",
                 "Zip": 98402,
                 "Bnd_Type": null,
-                "UNIQUE_ID": null
+                "UNIQUE_ID": null,
+                "website":"https://tacomachinesepark.org/about-the-tacoma-chinese-garden-and-reconciliation-park/",
+                "status":"upcoming",
+                "info":"Join us at this most beautiful garden site along the Sound. We highly recommend reading about the park in the website above. Access notes: The parking lot is a short walk from the pavillion. No bathrooms on site.",
             },
             "geometry": {
                 "type": "Point",
